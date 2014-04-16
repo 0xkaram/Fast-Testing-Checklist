@@ -41,7 +41,7 @@ Web Application Hacker's Handbook Task checklist as a Github-Flavored Markdown f
 - [ ] Check for session fixation
 - [ ] Check for cross-site request forgery
 - [ ] Check cookie scope
-- [ ] Access controls
+- [x] Access controls
 - [ ] Understand the access control requirements
 - [ ] Test effectiveness of controls, using multiple accounts if possible
 - [ ] Test for insecure access control methods (request parameters, Referer header, etc)
