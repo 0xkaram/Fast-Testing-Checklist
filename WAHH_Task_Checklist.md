@@ -12,7 +12,7 @@ Web Application Hacker's Handbook Task checklist as a Github-Flavored Markdown f
 
 ### Recon and analysis
 
-- [x] Map visible content
+- [ ] Map visible content
 - [x] Discover hidden & default content
 - [ ] Test for debug parameters
 - [ ] Identify data entry points
