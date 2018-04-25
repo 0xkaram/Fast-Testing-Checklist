@@ -67,7 +67,7 @@ Web Application Hacker's Handbook Task checklist as a Github-Flavored Markdown f
 
 ### Test application logic
 
-- [ ] Identify the logic attack surface
+- [x] Identify the logic attack surface
 - [ ] Test transmission of data via the client
 - [ ] Test for reliance on client-side input validation
 - [ ] Test any thick-client components (Java, ActiveX, Flash)
