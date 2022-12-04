@@ -22,8 +22,8 @@ A combination of my own methodology and the Web Application Hacker's Handbook Ta
 - [ ] Map the attack surface (Spider)
 - [ ] Identify all javascript files for later analysis
 
-### Test handling of access
-## - [ ] Authentication
+## Test handling of access
+### - [ ] Authentication
 - [ ] Test password quality rules
 - [ ] Test for username enumeration
 - [ ] Test resilience to password guessing
@@ -34,7 +34,7 @@ A combination of my own methodology and the Web Application Hacker's Handbook Ta
 - [ ] Check for unsafe distribution of credentials
 - [ ] Test for fail-open conditions
 - [ ] Test any multi-stage mechanisms
-## - [ ] Session handling
+### - [ ] Session handling
 - [ ] Test tokens for meaning
 - [ ] Test tokens for predictability
 - [ ] Check for insecure transmission of tokens
@@ -44,12 +44,12 @@ A combination of my own methodology and the Web Application Hacker's Handbook Ta
 - [ ] Check for session fixation
 - [ ] Check for cross-site request forgery
 - [ ] Check cookie scope
-## - [ ] Access controls
+### - [ ] Access controls
 - [ ] Understand the access control requirements
 - [ ] Test effectiveness of controls, using multiple accounts if possible
 - [ ] Test for insecure access control methods (request parameters, Referer header, etc)
 
-### Test handling of input
+## Test handling of input
 
 - [ ] Fuzz all request parameters
 - [ ] Test for SQL injection
@@ -69,7 +69,7 @@ A combination of my own methodology and the Web Application Hacker's Handbook Ta
 - [ ] Test for XPath injection
 - [ ] Test for SSRF and HTTP Redirrects in all redirecting parameters
 
-### Test application logic
+## Test application logic
 
 - [x] Identify the logic attack surface
 - [ ] Test transmission of data via the client
@@ -80,7 +80,7 @@ A combination of my own methodology and the Web Application Hacker's Handbook Ta
 - [ ] Test trust boundaries
 - [ ] Test transaction logic
 
-### Assess application hosting
+## Assess application hosting
 
 - [ ] Test segregation in shared infrastructures
 - [ ] Test segregation between ASP-hosted applications
@@ -92,7 +92,7 @@ A combination of my own methodology and the Web Application Hacker's Handbook Ta
 - [ ] Virtual hosting mis-configuration
 - [ ] Bugs in web server software
 
-### Miscellaneous tests
+## Miscellaneous tests
 
 - [ ] Check for DOM-based attacks
 - [ ] Check for frame injection
@@ -103,6 +103,3 @@ A combination of my own methodology and the Web Application Hacker's Handbook Ta
 - [ ] Forms with autocomplete enabled
 - [ ] Follow up any information leakage
 - [ ] Check for weak SSL ciphers
-
-## References
-*  http://mdsec.net/wahh/tasks.html
