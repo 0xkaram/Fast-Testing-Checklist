@@ -17,7 +17,9 @@ Web Application Hacker's Handbook Task checklist as a Github-Flavored Markdown f
 - [ ] Test for debug parameters
 - [ ] Identify data entry points
 - [ ] Identify the technologies used
-- [ ] Map the attack surface
+- [ ] Research existing vulnerabilitties in technology
+- [ ] Map the attack surface (Spider)
+- [ ] Identify all javascript files for later analysis
 
 ### Test handling of access
 - [ ] Authentication
@@ -64,6 +66,7 @@ Web Application Hacker's Handbook Task checklist as a Github-Flavored Markdown f
 - [ ] Test for SOAP injection
 - [ ] Test for LDAP injection
 - [ ] Test for XPath injection
+- [ ] Test for SSRF and HTTP Redirrects in all redirecting parameters
 
 ### Test application logic
 
