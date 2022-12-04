@@ -23,7 +23,7 @@ A combination of my own methodology and the Web Application Hacker's Handbook Ta
 - [ ] Identify all javascript files for later analysis
 
 ### Test handling of access
-- [ ] Authentication
+## - [ ] Authentication
 - [ ] Test password quality rules
 - [ ] Test for username enumeration
 - [ ] Test resilience to password guessing
@@ -34,7 +34,7 @@ A combination of my own methodology and the Web Application Hacker's Handbook Ta
 - [ ] Check for unsafe distribution of credentials
 - [ ] Test for fail-open conditions
 - [ ] Test any multi-stage mechanisms
-- [ ] Session handling
+## - [ ] Session handling
 - [ ] Test tokens for meaning
 - [ ] Test tokens for predictability
 - [ ] Check for insecure transmission of tokens
@@ -44,7 +44,7 @@ A combination of my own methodology and the Web Application Hacker's Handbook Ta
 - [ ] Check for session fixation
 - [ ] Check for cross-site request forgery
 - [ ] Check cookie scope
-- [ ] Access controls
+## - [ ] Access controls
 - [ ] Understand the access control requirements
 - [ ] Test effectiveness of controls, using multiple accounts if possible
 - [ ] Test for insecure access control methods (request parameters, Referer header, etc)
