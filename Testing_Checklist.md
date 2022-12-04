@@ -1,5 +1,5 @@
-# The Web Application Hacker's Handbook
-Web Application Hacker's Handbook Task checklist as a Github-Flavored Markdown file
+# Fast Testing Checklist
+A combination of my own methodology and the Web Application Hacker's Handbook Task checklist, as a Github-Flavored Markdown file
 ## Contents
 - [Recon and analysis](#recon-and-analysis)
 - [Test handling of access](#test-handling-of-access)
