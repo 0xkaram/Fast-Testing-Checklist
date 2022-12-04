@@ -10,7 +10,7 @@ A combination of my own methodology and the Web Application Hacker's Handbook Ta
 
 ## Task Checklist
 
-### Recon and analysis
+### App Recon and analysis
 
 - [ ] Map visible content
 - [ ] Discover hidden & default content
@@ -18,6 +18,7 @@ A combination of my own methodology and the Web Application Hacker's Handbook Ta
 - [ ] Identify data entry points
 - [ ] Identify the technologies used
 - [ ] Research existing vulnerabilitties in technology
+- [ ] Gather wordlists for specific techniology (Assetnote ones are excellent)
 - [ ] Map the attack surface (Spider)
 - [ ] Identify all javascript files for later analysis
 
